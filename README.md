@@ -61,4 +61,4 @@ java -jar target/quarkus-app/quarkus-run.jar
 curl -X PUT -H "Long-Running-Action: http://localhost:50000/lra-coordinator/0_ffff7f000001_b2b9_628b8a1b_209" http://localhost:8080/hello/do
 ```
 
-the curl command may be execute several time in order to reproduce the issue
+the curl command may be executed several time in order to reproduce the issue
